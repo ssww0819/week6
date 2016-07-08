@@ -21,7 +21,6 @@ cities = read_input (param[1])
 n = len(cities)
 route = [0] * n
 sum_distance = 0
-visited = True * n
 
 route[1] = random.randint(1, n-1)
 x = route[1]
